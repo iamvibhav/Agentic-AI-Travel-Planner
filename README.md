@@ -33,8 +33,10 @@ Voyagent is an AI-powered travel planning agent that creates personalized itiner
 
 ---
 
+**App Screenshot** :
+![Screenshot 2025-07-06 122139](https://github.com/user-attachments/assets/e80d5d4e-dbb3-484f-8ee5-b1b04f3e5d1c)
 
-
+**App Video** : 
 
 https://github.com/user-attachments/assets/dddee97f-929f-42fd-8e5e-b4664dd9d07a
 
