@@ -15,5 +15,4 @@ langchain_openai
 langgraph
 langchain-google-community[places]
 
-
 -e .

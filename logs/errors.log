@@ -1,0 +1,6 @@
+2025-07-06 11:53:04,987 - ERROR - test - logging.py:112 - Test error message
+2025-07-06 11:56:33,015 - ERROR - test - logging.py:112 - Test error message
+2025-07-06 11:58:03,258 - ERROR - test - logging.py:112 - Test error message
+2025-07-06 11:58:42,230 - ERROR - test - logging.py:117 - Test error message
+2025-07-06 11:58:42,231 - ERROR - ai_trip_planner - :0 - Test convenience error
+2025-07-06 11:58:42,761 - ERROR - integration_test - :0 - Caught expected exception
