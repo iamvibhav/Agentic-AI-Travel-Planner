@@ -18,12 +18,14 @@
 
 ## 🎯 **Project Overview**
 
-Voyagent is a sophisticated AI-powered travel planning application that leverages cutting-edge language models, real-time data APIs, and modern web technologies to create personalized travel itineraries. Built with a focus on user experience, reliability, and extensibility.
+Voyagent is an AI-powered travel planning agent that combines the capabilities of LLMs, agentic workflows, and real-time data integration to generate personalized, actionable travel itineraries. Built with a modular, production-ready architecture showcasing LLMOps best practices, it serves as an end-to-end demonstration of modern AI application development.
 
 ### **Key Highlights**
 
-- 🤖 **Advanced AI Integration**: Powered by LangChain and multiple LLM providers
-- 🌐 **Real-time Data**: Live weather, places, and currency information
+- 🤖 **Agentic AI Workflows**: Uses LangGraph to orchestrate multi-step tools and LLM reasoning
+- 🌐 **Real-Time Data Integration**: Weather, places, currency APIs for live, accurate plans
+- ⚙️ **Full-Stack AI Application**: FastAPI backend, Streamlit frontend for seamless UX
+- 🛠️ **LLMOps Integration**: Modular design, environment configs, scalable structure
 - 🎨 **Modern UI**: Beautiful, responsive Streamlit interface
 - 📊 **Comprehensive Logging**: Structured logging with file rotation
 - 🛡️ **Robust Error Handling**: Custom exception classes and graceful degradation
@@ -61,6 +63,11 @@ https://github.com/user-attachments/assets/dddee97f-929f-42fd-8e5e-b4664dd9d07a
 - **Progress Indicators**: Multi-step loading with visual feedback
 - **Interactive Elements**: Real-time updates and smooth transitions
 - **Professional Styling**: Clean, modern aesthetic with gradient backgrounds
+
+### **⚙️ Backend Orchestration**
+- **FastAPI REST** endpoints for efficient AI requests
+- **LangGraph Workflows**: Structured, tool-based agent orchestration
+- **Error Handling**: Try-catch with fallback mechanisms for reliability
 
 ### **📊 Advanced Logging & Monitoring**
 
@@ -231,11 +238,12 @@ AI_Trip_Planner/
 
 | Component         | Technology                    | Purpose                     |
 | ----------------- | ----------------------------- | --------------------------- |
-| **Frontend**      | Streamlit                     | Modern web interface        |
-| **Backend**       | FastAPI                       | High-performance API server |
 | **AI Framework**  | LangChain + LangGraph         | Workflow orchestration      |
 | **LLM Providers** | Groq, OpenAI                  | Language model integration  |
+| **Frontend**      | Streamlit                     | Modern web interface        |
+| **Backend**       | FastAPI, Uvicorn                       | High-performance REST API endpoints |
 | **Data APIs**     | OpenWeatherMap, Google Places | Real-time information       |
+| **DevOps/LLMOps**     | configs, modular setup, production-ready design | Structured codebase for deployment scalability       |
 | **Logging**       | Custom structured logger      | Application monitoring      |
 | **Testing**       | Python unittest               | Quality assurance           |
 
