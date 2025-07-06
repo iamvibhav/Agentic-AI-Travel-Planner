@@ -18,7 +18,7 @@
 
 ## 🎯 **Project Overview**
 
-Voyagent is an AI-powered travel planning agent that combines the capabilities of LLMs, agentic workflows, and real-time data integration to generate personalized, actionable travel itineraries. Built with a modular, production-ready architecture showcasing LLMOps best practices, it serves as an end-to-end demonstration of modern AI application development.
+Voyagent is an AI-powered travel planning agent that creates personalized itineraries using LLMs, LangChain, and agentic workflows. It integrates real-time data with advanced prompt engineering and LangGraph orchestration, demonstrating end-to-end GenAI application development and LLMOps best practices in a modular, production-ready system.
 
 ### **Key Highlights**
 
